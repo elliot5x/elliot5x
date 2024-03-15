@@ -4,13 +4,9 @@
 
 ##
 
-```
-Elliot     49 hrs 13 mins ████████████████████████░   96.34 %
-D3dsec     2 hr 32 mins   ████████████░░░░░░░░░░░░░   50.00 %
-Kali       Oh god         ████████████████████████░   96.32 %
-ls         infite         █████████████████████████   100.00 %
-lol        1 min?         ██████░░░░░░░░░░░░░░░░░░░   30.04 %
-```
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)
+
 
 ##
 
