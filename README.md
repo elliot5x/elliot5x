@@ -5,7 +5,7 @@
 ##
 
 <p align="center">
-<img src="![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true"/>
 </p>
 
 ##
