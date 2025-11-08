@@ -15,4 +15,4 @@ Marques.404/
         ├── ☠️ C#
         └── ☠️ Python
 </pre>
-<img align="top" src="joji.gif" width="350">
+<img align="top" src="joji.gif" width="250">
