@@ -1,6 +1,8 @@
 <table border="0" cellpadding="0" cellspacing="0">
   
-<img align="left" src="joji.gif" width="350">
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&color=1DCB51&background=000000&left=true&vCenter=true&multiline=true&width=846&height=120&lines=Fuck+You+;Fuck+You+over+again;+And+Fuck+You+over+and+over+again;" alt="Typing SVG"/>
+</p>
 
 <pre>
 Marques.404/
@@ -13,8 +15,4 @@ Marques.404/
         ├── ☠️ C#
         └── ☠️ Python
 </pre>
-</table>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&color=1DCB51&background=000000&center=true&vCenter=true&multiline=true&width=846&height=120&lines=Wake+Up,+Neo...;Follow+the+white+rabbit.;Knock%2C+knock" alt="Typing SVG"/>
-</p>
+<img align="top" src="joji.gif" width="350">
