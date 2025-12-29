@@ -14,4 +14,3 @@ Márcio Marques/
         └── ☠️ Javascript
         └── ☠️ Java
 </pre>
-<img align="top" src="joji.gif" width="250">
