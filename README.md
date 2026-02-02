@@ -12,5 +12,4 @@ Márcio Marques/
     ├── 🛠️ Aprendendo/Melhorando
         ├── ☠️ Java
         └── ☠️ Python
-        └── ☠️ Em andamento...
 </pre>
