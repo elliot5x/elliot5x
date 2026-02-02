@@ -10,7 +10,7 @@ Márcio Marques/
     ├── 🎓 Formação/
     │   └── 🔒 CyberSecurity Student
     ├── 🛠️ Aprendendo/Melhorando
-        ├── ☠️ Python
-        └── ☠️ Javascript
-        └── ☠️ Java
+        ├── ☠️ Java
+        └── ☠️ Python
+        └── ☠️ Em andamento...
 </pre>
