@@ -1,37 +1,27 @@
-<svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="240" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#171717;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
-    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
+      .text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .bold { font-weight: 700; }
+      .semi { font-weight: 600; }
+    </style>
   </defs>
-  
-  <rect x="0" y="0" width="300" height="180" rx="15" ry="15" fill="url(#cardGrad)" stroke="#333" stroke-width="1"/>
-  
-  <path d="M0 120 Q 150 180 300 120" stroke="rgba(255,255,255,0.05)" stroke-width="20" fill="none"/>
-  <path d="M0 60 Q 150 0 300 60" stroke="rgba(255,255,255,0.05)" stroke-width="20" fill="none"/>
 
-  <g transform="translate(220, 130)">
-    <circle cx="0" cy="10" r="14" fill="#ff5f00" opacity="0.9"/>
-    <circle cx="18" cy="10" r="14" fill="#eb001b" opacity="0.9"/>
-    <circle cx="9" cy="10" r="14" fill="#ff9800" opacity="0.5"/> </g>
+  <rect x="0" y="0" width="300" height="240" rx="16" fill="#fefefe" stroke="#e0e0e0" stroke-width="1"/>
 
-  <rect x="30" y="50" width="40" height="30" rx="4" fill="#e0e0e0"/>
-  <path d="M30 65 H70 M50 50 V80 M40 50 V80 M60 50 V80" stroke="#aaa" stroke-width="1"/>
+  <path d="M1 16 A 15 15 0 0 1 16 1 L 284 1 A 15 15 0 0 1 299 16 L 299 150 L 1 150 Z" fill="#fef4e2" />
 
-  <path d="M250 30 A 10 10 0 0 1 270 30 M245 30 A 15 15 0 0 1 275 30 M240 30 A 20 20 0 0 1 280 30" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+  <text x="24" y="45" font-size="14" fill="#141417" class="text bold">CyberSec &amp; Dev</text>
 
-  <text x="280" y="25" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="end" letter-spacing="2" opacity="0.8">NUBANK</text>
+  <g transform="translate(256, 28)">
+    <path d="M13.195 2.49c0.825 0.096 1.43 0.808 1.43 1.639V15.75L9 12.937L3.375 15.75V4.129c0-0.831 0.605-1.543 1.43-1.639a36.38 36.38 0 018.39 0z" 
+          stroke="#141417" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
 
-  <text x="30" y="110" font-family="Courier New, monospace" font-size="19" fill="white" letter-spacing="2" font-weight="bold">
-    5502 4891 0042 9981
-  </text>
+  <text x="24" y="100" font-size="28" fill="#141417" class="text semi">CyberSecurity</text>
+  <text x="24" y="132" font-size="28" fill="#141417" class="text semi">Student</text>
 
-  <text x="30" y="135" font-family="Arial, sans-serif" font-size="7" fill="#ccc">MEMBER SINCE</text>
-  <text x="30" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">06/21</text>
-
-  <text x="120" y="135" font-family="Arial, sans-serif" font-size="7" fill="#ccc">VALID THRU</text>
-  <text x="120" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">12/29</text>
-
-  <text x="30" y="165" font-family="Courier New, monospace" font-size="14" fill="white" letter-spacing="1">MÁRCIO MARQUES</text>
-</svg>
+  <g transform="translate(24, 175) scale(0.14)">
+     <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
+     <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298
