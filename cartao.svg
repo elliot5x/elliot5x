@@ -1,188 +1,37 @@
-<svg fill="none" viewBox="0 0 240 154" width="240" height="154" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .flip-card {
-          background-color: transparent;
-          width: 240px;
-          height: 154px;
-          perspective: 1000px;
-          color: white;
-          font-family: sans-serif;
-        }
+<svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#171717;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="300" height="180" rx="15" ry="15" fill="url(#cardGrad)" stroke="#333" stroke-width="1"/>
+  
+  <path d="M0 120 Q 150 180 300 120" stroke="rgba(255,255,255,0.05)" stroke-width="20" fill="none"/>
+  <path d="M0 60 Q 150 0 300 60" stroke="rgba(255,255,255,0.05)" stroke-width="20" fill="none"/>
 
-        .heading_8264 {
-          position: absolute;
-          letter-spacing: .2em;
-          font-size: 0.5em;
-          top: 2em;
-          left: 18.6em;
-        }
+  <g transform="translate(220, 130)">
+    <circle cx="0" cy="10" r="14" fill="#ff5f00" opacity="0.9"/>
+    <circle cx="18" cy="10" r="14" fill="#eb001b" opacity="0.9"/>
+    <circle cx="9" cy="10" r="14" fill="#ff9800" opacity="0.5"/> </g>
 
-        .logo {
-          position: absolute;
-          top: 6.8em;
-          left: 11.7em;
-        }
+  <rect x="30" y="50" width="40" height="30" rx="4" fill="#e0e0e0"/>
+  <path d="M30 65 H70 M50 50 V80 M40 50 V80 M60 50 V80" stroke="#aaa" stroke-width="1"/>
 
-        .chip {
-          position: absolute;
-          top: 2.3em;
-          left: 1.5em;
-        }
+  <path d="M250 30 A 10 10 0 0 1 270 30 M245 30 A 15 15 0 0 1 275 30 M240 30 A 20 20 0 0 1 280 30" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
 
-        .contactless {
-          position: absolute;
-          top: 3.5em;
-          left: 12.4em;
-        }
+  <text x="280" y="25" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="end" letter-spacing="2" opacity="0.8">NUBANK</text>
 
-        .number {
-          position: absolute;
-          font-weight: bold;
-          font-size: .6em;
-          top: 8.3em;
-          left: 1.6em;
-        }
+  <text x="30" y="110" font-family="Courier New, monospace" font-size="19" fill="white" letter-spacing="2" font-weight="bold">
+    5502 4891 0042 9981
+  </text>
 
-        .valid_thru {
-          position: absolute;
-          font-weight: bold;
-          top: 12em; /* Corrigido: era 635.8em */
-          font-size: .35em; /* Ajustado */
-          left: 10em; /* Corrigido: era 140.3em */
-        }
+  <text x="30" y="135" font-family="Arial, sans-serif" font-size="7" fill="#ccc">MEMBER SINCE</text>
+  <text x="30" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">06/21</text>
 
-        .date_8264 {
-          position: absolute;
-          font-weight: bold;
-          font-size: 0.5em;
-          top: 13.6em;
-          left: 3.2em;
-        }
+  <text x="120" y="135" font-family="Arial, sans-serif" font-size="7" fill="#ccc">VALID THRU</text>
+  <text x="120" y="145" font-family="Arial, sans-serif" font-size="9" fill="white">12/29</text>
 
-        .name {
-          position: absolute;
-          font-weight: bold;
-          font-size: 0.5em;
-          top: 16.1em;
-          left: 2em;
-        }
-
-        .strip {
-          position: absolute;
-          background-color: black;
-          width: 15em;
-          height: 1.5em;
-          top: 2.4em;
-          background: repeating-linear-gradient(
-            45deg,
-            #303030,
-            #303030 10px,
-            #202020 10px,
-            #202020 20px
-          );
-        }
-
-        .mstrip {
-          position: absolute;
-          background-color: rgb(255, 255, 255);
-          width: 8em;
-          height: 0.8em;
-          top: 5em;
-          left: .8em;
-          border-radius: 2.5px;
-        }
-
-        .sstrip {
-          position: absolute;
-          background-color: rgb(255, 255, 255);
-          width: 4.1em;
-          height: 0.8em;
-          top: 5em;
-          left: 10em;
-          border-radius: 2.5px;
-        }
-
-        .code {
-          font-weight: bold;
-          text-align: center;
-          margin: .2em;
-          color: black;
-          font-size: 0.8em;
-        }
-
-        .flip-card-inner {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-          transition: transform 0.8s;
-          transform-style: preserve-3d;
-        }
-
-        /* O Hover pode não funcionar dependendo do navegador ao ver via GitHub Image Proxy, mas a animação existe */
-        .flip-card:hover .flip-card-inner {
-          transform: rotateY(180deg);
-        }
-
-        .flip-card-front, .flip-card-back {
-          box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-          position: absolute;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          width: 100%;
-          height: 100%;
-          -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-          border-radius: 1rem;
-        }
-
-        .flip-card-front {
-          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
-          background-color: #171717;
-        }
-
-        .flip-card-back {
-          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
-          background-color: #171717;
-          transform: rotateY(180deg);
-        }
-      </style>
-
-      <div class="flip-card">
-          <div class="flip-card-inner">
-              <div class="flip-card-front">
-                  <p class="heading_8264">MASTERCARD</p>
-                  <svg class="logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 48 48">
-                  <path fill="#ff9800" d="M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z"></path><path fill="#d50000" d="M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z"></path><path fill="#ff3d00" d="M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z"></path>
-                  </svg>
-                  <svg version="1.1" class="chip" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 50 50" xml:space="preserve">  <image id="image0" width="50" height="50" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB6VBMVEUAAACNcTiVeUKVeUOY
-                    fEaafEeUeUSYfEWZfEaykleyklaXe0SWekSZZjOYfEWYe0WXfUWXe0WcgEicfkiXe0SVekSXekSW
-                    ekKYe0a9nF67m12ZfUWUeEaXfESVekOdgEmVeUWWekSniU+VeUKVeUOrjFKYfEWliE6WeESZe0GS
-                    e0WYfES7ml2Xe0WXeESUeEOWfEWcf0eWfESXe0SXfEWYekSVeUKXfEWxklawkVaZfEWWekOUekOW
-                    ekSYfESZe0eXekWYfEWZe0WZe0eVeUSWeETAnmDCoWLJpmbxy4P1zoXwyoLIpWbjvXjivnjgu3bf
-                    u3beunWvkFWxkle/nmDivXiWekTnwXvkwHrCoWOuj1SXe0TEo2TDo2PlwHratnKZfEbQrWvPrWua
-                    fUfbt3PJp2agg0v0zYX0zYSfgkvKp2frxX7mwHrlv3rsxn/yzIPgvHfduXWXe0XuyIDzzISsjVO1
-                    lVm0lFitjVPzzIPqxX7duna0lVncuHTLqGjvyIHeuXXxyYGZfUayk1iyk1e2lln1zYTEomO2llrb
-                    tnOafkjFpGSbfkfZtXLhvHfkv3nqxH3mwXujhU3KqWizlFilh06khk2fgkqsjlPHpWXJp2erjVOh
-                    g0yWe0SliE+XekShhEvAn2D///+gx8TWAAAARnRSTlMACVCTtsRl7Pv7+vxkBab7pZv5+ZlL/UnU
-                    /f3SJCVe+Fx39naA9/75XSMh0/3SSkia+pil/KRj7Pr662JPkrbP7OLQ0JFOijI1MwAAAAFiS0dE
-                    orDd34wAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfnAg0IDx2lsiuJAAACLElEQVRIx2Ng
-                    GAXkAUYmZhZWPICFmYkRVQcbOwenmzse4MbFzc6DpIGXj8PD04sA8PbhF+CFaxEU8iWkAQT8hEVg
-                    OkTF/InR4eUVICYO1SIhCRMLDAoKDvFDVhUaEhwUFAjjSUlDdMiEhcOEItzdI6OiYxA6YqODIt3d
-                    I2DcuDBZsBY5eVTr4xMSYcyk5BRUOXkFsBZFJTQnp6alQxgZmVloUkrKYC0qqmji2WE5EEZuWB6a
-                    lKoKdi35YQUQRkFYPpFaCouKIYzi6EDitJSUlsGY5RWVRGjJLyxNy4ZxqtIqqvOxaVELQwZFZdkI
-                    JVU1RSiSalAt6rUwUBdWG1CP6pT6gNqwOrgCdQyHNYR5YQFhDXj8MiK1IAeyN6aORiyBjByVTc0F
-                    qBoKWpqwRCVSgilOaY2OaUPw29qjOzqLvTAchpos47u6EZyYnngUSRwpuTe6D+6qaFQdOPNLRzOM
-                    1dzhRZyW+CZouHk3dWLXglFcFIflQhj9YWjJGlZcaKAVSvjyPrRQ0oQVKDAQHlYFYUwIm4gqExGm
-                    BSkutaVQJeomwViTJqPK6OhCy2Q9sQBk8cY0DxjTJw0lAQWK6cOKfgNhpKK7ZMpUeF3jPa28BCET
-                    amiEqJKM+X1gxvWXpoUjVIVPnwErw71nmpgiqiQGBjNzbgs3j1nus+fMndc+Cwm0T52/oNR9lsdC
-                    S24ra7Tq1cbWjpXV3sHRCb1idXZ0sGdltXNxRateRwHRAACYHutzk/2I5QAAACV0RVh0ZGF0ZTpj
-                    cmVhdGUAMjAyMy0wMi0xM1QwODoxNToyOSswMDowMEUnN7UAAAAldEVYdGRhdGU6bW9kaWZ5ADIw
-                    MjMtMDItMTNUMDg6MTU6MjkrMDA6MDA0eo8JAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTAy
-                    LTEzVDA4OjE1OjI5KzAwOjAwY2+u1gAAAABJRU5ErkJggg=="></image>
-                  </svg>
-                  <svg version="1.1" class="contactless" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50" xml:space="preserve">  <image id="image0" width="50" height="50
+  <text x="30" y="165" font-family="Courier New, monospace" font-size="14" fill="white" letter-spacing="1">MÁRCIO MARQUES</text>
+</svg>
