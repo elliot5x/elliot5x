@@ -14,4 +14,4 @@ Márcio Marques/
         └── ☠️ Python
 </pre>
 
-![Top Langs](https://github.com/anuraghazra/github-readme-stats)
+<img align="right" alt="Coding" width="400" src="https://giphy.com/gifs/reverse-stuck-austin-powers-y6Sl42U3xEFkk">
