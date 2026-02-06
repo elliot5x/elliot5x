@@ -14,4 +14,4 @@ Márcio Marques/
         └── ☠️ Python
 </pre>
 
-https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github.com/anuraghazra/github-readme-stats)
