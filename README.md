@@ -14,4 +14,4 @@ Márcio Marques/
         └── ☠️ Python
 </pre>
 
-<img align="right" alt="Coding" width="400" src="https://giphy.com/gifs/reverse-stuck-austin-powers-y6Sl42U3xEFkk">
+<img align="right" width="400" src="https://giphy.com/gifs/reverse-stuck-austin-powers-y6Sl42U3xEFkk">
