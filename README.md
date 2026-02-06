@@ -14,4 +14,6 @@ Márcio Marques/
         └── ☠️ Python
 </pre>
 
-![Meu cartão](cartao.svg)
+<p align="center">
+  <img src="cartao.svg" alt="Meu Cartão">
+</p>
