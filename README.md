@@ -9,7 +9,7 @@ Márcio Marques/
     ├── 💼 Role/
     │   └── 💻 Software Engineer
     └── 🛠️ Currently working on/
-        └── 📚 Library Management System (CRUD)
+        └── 📚 everything everywhere all at once
     
 </pre>
 
