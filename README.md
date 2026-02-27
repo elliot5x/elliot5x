@@ -14,7 +14,7 @@ Márcio Marques/
 </pre>
 
 <pre align="center">
-<img align="center" width="500" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWxkY3hnd2l1M2FvZXk3NHBqcnJ2cjF3YWZlbGdodnpoc3AzYnNobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rPDfc7BxCNj3ThwwF7/giphy.gif">
+<img align="center" width="500" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JwbjFhOWx3NjJwZXBzY2w1d3prdW55ajUyejA3OWYxOGdzN3hmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6MkTRV43vCOiaxP2M2/giphy.gif">
 </pre>
 
 ---
