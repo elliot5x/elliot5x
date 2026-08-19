@@ -8,14 +8,12 @@ Márcio Marques/
         └── 🇺🇸 English (Intermediate)
     ├── 💼 Role/
     │   └── 💻 SOC Analyst
-    └── 🛠️ Currently working on/
-        └── 📚 everything everywhere all at once
     
 </pre>
-
-<pre align="center">
-<img align="center" width="500" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JwbjFhOWx3NjJwZXBzY2w1d3prdW55ajUyejA3OWYxOGdzN3hmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6MkTRV43vCOiaxP2M2/giphy.gif">
-</pre>
+<p align="center">
+  <img width="450" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGt2bmg3dWFiZGdtdWZmdTg5Z3RuaHBnYThvdHI4MGxjOWR5cWt6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9FWKqTMttcDV9DlXhF/giphy.gif"/>
+  <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=315xzremnuvdu7nstpxsuyyi7u6y" alt="Spotify recently played" />
+</p>
 
 ---
 
