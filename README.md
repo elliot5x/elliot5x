@@ -10,8 +10,7 @@ Márcio Marques/
     │   └── 💻 SOC Analyst
     
 </pre>
-<p align="center">
-  <img width="450" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnZnZGUxNjl0YWwzcjViODA0azRnbmh1azk2Y3FtMmF0a3dtbTUzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z835RsRqQHOlC4rsBr/giphy.gif"/>
+<p align="left">
   <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=315xzremnuvdu7nstpxsuyyi7u6y" alt="Spotify recently played" />
 </p>
 
